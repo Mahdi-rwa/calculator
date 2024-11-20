@@ -137,7 +137,7 @@
             this.btndiv.Name = "btndiv";
             this.btndiv.Size = new System.Drawing.Size(109, 77);
             this.btndiv.TabIndex = 0;
-            this.btndiv.Text = "/";
+            this.btndiv.Text = "÷";
             this.btndiv.UseVisualStyleBackColor = false;
             this.btndiv.Click += new System.EventHandler(this.btndiv_Click);
             // 
@@ -213,7 +213,7 @@
             this.btntimes.Name = "btntimes";
             this.btntimes.Size = new System.Drawing.Size(109, 77);
             this.btntimes.TabIndex = 0;
-            this.btntimes.Text = "*";
+            this.btntimes.Text = "×";
             this.btntimes.UseVisualStyleBackColor = false;
             this.btntimes.Click += new System.EventHandler(this.btntimes_Click);
             // 
@@ -468,7 +468,7 @@
             this.sayHiToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(521, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(521, 30);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -479,7 +479,7 @@
             this.setColorToolStripMenuItem,
             this.setFontToolStripMenuItem});
             this.settingToolStripMenuItem.Name = "settingToolStripMenuItem";
-            this.settingToolStripMenuItem.Size = new System.Drawing.Size(70, 24);
+            this.settingToolStripMenuItem.Size = new System.Drawing.Size(70, 26);
             this.settingToolStripMenuItem.Text = "Setting";
             this.settingToolStripMenuItem.Click += new System.EventHandler(this.settingToolStripMenuItem_Click);
             // 
@@ -504,7 +504,7 @@
             this.handToolStripMenuItem,
             this.ppToolStripMenuItem});
             this.setCurserToolStripMenuItem.Name = "setCurserToolStripMenuItem";
-            this.setCurserToolStripMenuItem.Size = new System.Drawing.Size(90, 24);
+            this.setCurserToolStripMenuItem.Size = new System.Drawing.Size(90, 26);
             this.setCurserToolStripMenuItem.Text = "Set Cursor";
             // 
             // defulteToolStripMenuItem
@@ -531,7 +531,7 @@
             // sayHiToolStripMenuItem
             // 
             this.sayHiToolStripMenuItem.Name = "sayHiToolStripMenuItem";
-            this.sayHiToolStripMenuItem.Size = new System.Drawing.Size(98, 24);
+            this.sayHiToolStripMenuItem.Size = new System.Drawing.Size(98, 26);
             this.sayHiToolStripMenuItem.Text = "About app!";
             // 
             // fontDialog1

@@ -12,15 +12,12 @@ namespace WindowsFormsApplication1
 {
     public partial class Form1 : Form
     {
-        bool plus = false;
-        bool minus = false;
-        bool divid = false;
-        bool times = false;
-        double value;
-        double sum;
+        bool plus = false , minus = false, times = false, divid;
+        double value , sum;
         public Form1()
         {
             InitializeComponent();
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -48,6 +45,8 @@ namespace WindowsFormsApplication1
         {
             textBox1.Clear();
             textBox2.Clear();
+            sum = 0;
+            value = 0;
         }
         private void btn1_Click(object sender, EventArgs e)
         {
@@ -95,25 +94,27 @@ namespace WindowsFormsApplication1
             textBox1.Text += ".";
         }
 
+
         private void btnplus_Click(object sender, EventArgs e)
         {
             value = double.Parse(textBox1.Text);
             textBox1.Clear();
-            plus = true;
             textBox2.Text = $"{value} + ";
+            plus = true;
         }
+
         private void btnminus_Click(object sender, EventArgs e)
         {
             value = double.Parse(textBox1.Text);
             textBox1.Clear();
-            minus = true;
             textBox2.Text = $"{value} - ";
+            minus = true;
         }
         private void btntimes_Click(object sender, EventArgs e)
         {
             value = double.Parse(textBox1.Text);
             textBox1.Clear();
-            textBox2.Text = $"{value} * ";
+            textBox2.Text = $"{value} × ";
             times = true;
         }
         private void btndiv_Click(object sender, EventArgs e)
@@ -121,32 +122,33 @@ namespace WindowsFormsApplication1
             value = double.Parse(textBox1.Text);
             textBox1.Clear();
             divid = true;
-            textBox2.Text = $"{value} / ";
+            textBox2.Text = $"{value} ÷ ";
         }
 
 
         private void btneq_Click(object sender, EventArgs e)
         {
-            
-            double num1 = value;
-            double num2 = double.Parse(textBox1.Text);
-            textBox1.Clear();
             if (plus)
             {
-                sum = num1 + num2;
+                sum = value += double.Parse(textBox1.Text);
             }
-            else if (minus) 
+            else if (minus)
             {
-                sum = num1 - num2;
+                sum = value -= double.Parse(textBox1.Text);
+            }
+            else if (times)
+            {
+                sum = value *= double.Parse(textBox1.Text);
             }
             else if (divid)
             {
-                sum = num1 / num2;
+                sum = value /= double.Parse(textBox1.Text);
             }
             else
             {
-                sum = num1 * num2;
+                MessageBox.Show("Enter a correct!");
             }
+
             textBox1.Text = sum.ToString();
         }
 
