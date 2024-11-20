@@ -16,4 +16,4 @@ This is a **simple and test Windows Forms application**. It serves as a basic ex
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/your-repository.git
+   git clone: https://github.com/Mahdi-rwa/calculator.git
