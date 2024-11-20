@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button1 = new System.Windows.Forms.Button();
             this.btndelete = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -73,8 +74,8 @@
             this.button1.AutoSize = true;
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(32)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(167)))), ((int)(((byte)(217)))));
+            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
             this.button1.Location = new System.Drawing.Point(13, 255);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
@@ -92,8 +93,8 @@
             this.btndelete.AutoSize = true;
             this.btndelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(32)))));
             this.btndelete.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btndelete.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndelete.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(167)))), ((int)(((byte)(217)))));
+            this.btndelete.Font = new System.Drawing.Font("Microsoft YaHei", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndelete.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
             this.btndelete.Location = new System.Drawing.Point(142, 255);
             this.btndelete.Margin = new System.Windows.Forms.Padding(4);
             this.btndelete.Name = "btndelete";
@@ -111,14 +112,14 @@
             this.button3.AutoSize = true;
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(32)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(167)))), ((int)(((byte)(217)))));
+            this.button3.Font = new System.Drawing.Font("Courier New", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
             this.button3.Location = new System.Drawing.Point(270, 255);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(109, 77);
             this.button3.TabIndex = 0;
-            this.button3.Text = "CE";
+            this.button3.Text = "⌫";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -130,8 +131,8 @@
             this.btndiv.AutoSize = true;
             this.btndiv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(32)))));
             this.btndiv.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btndiv.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndiv.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(167)))), ((int)(((byte)(217)))));
+            this.btndiv.Font = new System.Drawing.Font("Microsoft YaHei", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndiv.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
             this.btndiv.Location = new System.Drawing.Point(399, 255);
             this.btndiv.Margin = new System.Windows.Forms.Padding(4);
             this.btndiv.Name = "btndiv";
@@ -149,8 +150,8 @@
             this.btn7.AutoSize = true;
             this.btn7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(32)))));
             this.btn7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn7.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(167)))), ((int)(((byte)(217)))));
+            this.btn7.Font = new System.Drawing.Font("Microsoft YaHei", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
             this.btn7.Location = new System.Drawing.Point(13, 352);
             this.btn7.Margin = new System.Windows.Forms.Padding(4);
             this.btn7.Name = "btn7";
@@ -168,8 +169,8 @@
             this.btn8.AutoSize = true;
             this.btn8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(32)))));
             this.btn8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn8.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(167)))), ((int)(((byte)(217)))));
+            this.btn8.Font = new System.Drawing.Font("Microsoft YaHei", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
             this.btn8.Location = new System.Drawing.Point(142, 351);
             this.btn8.Margin = new System.Windows.Forms.Padding(4);
             this.btn8.Name = "btn8";
@@ -187,8 +188,8 @@
             this.btn9.AutoSize = true;
             this.btn9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(32)))));
             this.btn9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn9.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(167)))), ((int)(((byte)(217)))));
+            this.btn9.Font = new System.Drawing.Font("Microsoft YaHei", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
             this.btn9.Location = new System.Drawing.Point(270, 351);
             this.btn9.Margin = new System.Windows.Forms.Padding(4);
             this.btn9.Name = "btn9";
@@ -206,8 +207,8 @@
             this.btntimes.AutoSize = true;
             this.btntimes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(32)))));
             this.btntimes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btntimes.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btntimes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(167)))), ((int)(((byte)(217)))));
+            this.btntimes.Font = new System.Drawing.Font("Microsoft YaHei", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btntimes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
             this.btntimes.Location = new System.Drawing.Point(399, 351);
             this.btntimes.Margin = new System.Windows.Forms.Padding(4);
             this.btntimes.Name = "btntimes";
@@ -225,8 +226,8 @@
             this.btn4.AutoSize = true;
             this.btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(32)))));
             this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn4.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(167)))), ((int)(((byte)(217)))));
+            this.btn4.Font = new System.Drawing.Font("Microsoft YaHei", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
             this.btn4.Location = new System.Drawing.Point(13, 442);
             this.btn4.Margin = new System.Windows.Forms.Padding(4);
             this.btn4.Name = "btn4";
@@ -244,8 +245,8 @@
             this.btn5.AutoSize = true;
             this.btn5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(32)))));
             this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn5.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(167)))), ((int)(((byte)(217)))));
+            this.btn5.Font = new System.Drawing.Font("Microsoft YaHei", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
             this.btn5.Location = new System.Drawing.Point(142, 442);
             this.btn5.Margin = new System.Windows.Forms.Padding(4);
             this.btn5.Name = "btn5";
@@ -263,8 +264,8 @@
             this.btn6.AutoSize = true;
             this.btn6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(32)))));
             this.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn6.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(167)))), ((int)(((byte)(217)))));
+            this.btn6.Font = new System.Drawing.Font("Microsoft YaHei", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
             this.btn6.Location = new System.Drawing.Point(270, 442);
             this.btn6.Margin = new System.Windows.Forms.Padding(4);
             this.btn6.Name = "btn6";
@@ -282,8 +283,8 @@
             this.btnminus.AutoSize = true;
             this.btnminus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(32)))));
             this.btnminus.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnminus.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnminus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(167)))), ((int)(((byte)(217)))));
+            this.btnminus.Font = new System.Drawing.Font("Microsoft YaHei", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnminus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
             this.btnminus.Location = new System.Drawing.Point(399, 442);
             this.btnminus.Margin = new System.Windows.Forms.Padding(4);
             this.btnminus.Name = "btnminus";
@@ -301,8 +302,8 @@
             this.btn1.AutoSize = true;
             this.btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(32)))));
             this.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn1.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(167)))), ((int)(((byte)(217)))));
+            this.btn1.Font = new System.Drawing.Font("Microsoft YaHei", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
             this.btn1.Location = new System.Drawing.Point(13, 538);
             this.btn1.Margin = new System.Windows.Forms.Padding(4);
             this.btn1.Name = "btn1";
@@ -320,8 +321,8 @@
             this.btn2.AutoSize = true;
             this.btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(32)))));
             this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn2.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(167)))), ((int)(((byte)(217)))));
+            this.btn2.Font = new System.Drawing.Font("Microsoft YaHei", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
             this.btn2.Location = new System.Drawing.Point(142, 538);
             this.btn2.Margin = new System.Windows.Forms.Padding(4);
             this.btn2.Name = "btn2";
@@ -339,8 +340,8 @@
             this.btn3.AutoSize = true;
             this.btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(32)))));
             this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn3.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(167)))), ((int)(((byte)(217)))));
+            this.btn3.Font = new System.Drawing.Font("Microsoft YaHei", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
             this.btn3.Location = new System.Drawing.Point(270, 538);
             this.btn3.Margin = new System.Windows.Forms.Padding(4);
             this.btn3.Name = "btn3";
@@ -358,8 +359,8 @@
             this.btnplus.AutoSize = true;
             this.btnplus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(32)))));
             this.btnplus.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnplus.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnplus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(167)))), ((int)(((byte)(217)))));
+            this.btnplus.Font = new System.Drawing.Font("Microsoft YaHei", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnplus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
             this.btnplus.Location = new System.Drawing.Point(399, 538);
             this.btnplus.Margin = new System.Windows.Forms.Padding(4);
             this.btnplus.Name = "btnplus";
@@ -377,16 +378,16 @@
             this.button17.AutoSize = true;
             this.button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(32)))));
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button17.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(167)))), ((int)(((byte)(217)))));
+            this.button17.Font = new System.Drawing.Font("Microsoft YaHei", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
             this.button17.Location = new System.Drawing.Point(13, 631);
             this.button17.Margin = new System.Windows.Forms.Padding(4);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(109, 77);
             this.button17.TabIndex = 0;
-            this.button17.Text = "(";
+            this.button17.Text = "00";
             this.button17.UseVisualStyleBackColor = false;
-            this.button17.Click += new System.EventHandler(this.button17_Click);
+            this.button17.Click += new System.EventHandler(this.button17_Click_1);
             // 
             // btn0
             // 
@@ -396,8 +397,8 @@
             this.btn0.AutoSize = true;
             this.btn0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(32)))));
             this.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn0.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(167)))), ((int)(((byte)(217)))));
+            this.btn0.Font = new System.Drawing.Font("Microsoft YaHei", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
             this.btn0.Location = new System.Drawing.Point(142, 631);
             this.btn0.Margin = new System.Windows.Forms.Padding(4);
             this.btn0.Name = "btn0";
@@ -415,8 +416,8 @@
             this.button19.AutoSize = true;
             this.button19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(32)))));
             this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button19.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(167)))), ((int)(((byte)(217)))));
+            this.button19.Font = new System.Drawing.Font("Microsoft YaHei", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
             this.button19.Location = new System.Drawing.Point(270, 631);
             this.button19.Margin = new System.Windows.Forms.Padding(4);
             this.button19.Name = "button19";
@@ -434,8 +435,8 @@
             this.btneq.AutoSize = true;
             this.btneq.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(32)))));
             this.btneq.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btneq.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btneq.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(167)))), ((int)(((byte)(217)))));
+            this.btneq.Font = new System.Drawing.Font("Microsoft YaHei", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btneq.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
             this.btneq.Location = new System.Drawing.Point(399, 631);
             this.btneq.Margin = new System.Windows.Forms.Padding(4);
             this.btneq.Name = "btneq";
@@ -461,6 +462,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.settingToolStripMenuItem,
@@ -468,71 +470,85 @@
             this.sayHiToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(521, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(521, 28);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // settingToolStripMenuItem
             // 
+            this.settingToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.settingToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.setColorToolStripMenuItem,
             this.setFontToolStripMenuItem});
+            this.settingToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.settingToolStripMenuItem.Name = "settingToolStripMenuItem";
-            this.settingToolStripMenuItem.Size = new System.Drawing.Size(70, 26);
+            this.settingToolStripMenuItem.Size = new System.Drawing.Size(70, 24);
             this.settingToolStripMenuItem.Text = "Setting";
             this.settingToolStripMenuItem.Click += new System.EventHandler(this.settingToolStripMenuItem_Click);
             // 
             // setColorToolStripMenuItem
             // 
+            this.setColorToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.setColorToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.setColorToolStripMenuItem.Name = "setColorToolStripMenuItem";
-            this.setColorToolStripMenuItem.Size = new System.Drawing.Size(153, 26);
+            this.setColorToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.setColorToolStripMenuItem.Text = "Set Color";
             this.setColorToolStripMenuItem.Click += new System.EventHandler(this.setColorToolStripMenuItem_Click);
             // 
             // setFontToolStripMenuItem
             // 
+            this.setFontToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.setFontToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.setFontToolStripMenuItem.Name = "setFontToolStripMenuItem";
-            this.setFontToolStripMenuItem.Size = new System.Drawing.Size(153, 26);
+            this.setFontToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.setFontToolStripMenuItem.Text = "Set Font";
             this.setFontToolStripMenuItem.Click += new System.EventHandler(this.setFontToolStripMenuItem_Click);
             // 
             // setCurserToolStripMenuItem
             // 
+            this.setCurserToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.setCurserToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.defulteToolStripMenuItem,
             this.handToolStripMenuItem,
             this.ppToolStripMenuItem});
+            this.setCurserToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.setCurserToolStripMenuItem.Name = "setCurserToolStripMenuItem";
-            this.setCurserToolStripMenuItem.Size = new System.Drawing.Size(90, 26);
+            this.setCurserToolStripMenuItem.Size = new System.Drawing.Size(90, 24);
             this.setCurserToolStripMenuItem.Text = "Set Cursor";
             // 
             // defulteToolStripMenuItem
             // 
+            this.defulteToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.defulteToolStripMenuItem.Name = "defulteToolStripMenuItem";
-            this.defulteToolStripMenuItem.Size = new System.Drawing.Size(141, 26);
+            this.defulteToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.defulteToolStripMenuItem.Text = "Default";
             this.defulteToolStripMenuItem.Click += new System.EventHandler(this.defulteToolStripMenuItem_Click);
             // 
             // handToolStripMenuItem
             // 
+            this.handToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.handToolStripMenuItem.Name = "handToolStripMenuItem";
-            this.handToolStripMenuItem.Size = new System.Drawing.Size(141, 26);
+            this.handToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.handToolStripMenuItem.Text = "Hand";
             this.handToolStripMenuItem.Click += new System.EventHandler(this.handToolStripMenuItem_Click);
             // 
             // ppToolStripMenuItem
             // 
+            this.ppToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ppToolStripMenuItem.Name = "ppToolStripMenuItem";
-            this.ppToolStripMenuItem.Size = new System.Drawing.Size(141, 26);
+            this.ppToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.ppToolStripMenuItem.Text = "Cross";
             this.ppToolStripMenuItem.Click += new System.EventHandler(this.ppToolStripMenuItem_Click);
             // 
             // sayHiToolStripMenuItem
             // 
+            this.sayHiToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.sayHiToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.sayHiToolStripMenuItem.Name = "sayHiToolStripMenuItem";
-            this.sayHiToolStripMenuItem.Size = new System.Drawing.Size(98, 26);
+            this.sayHiToolStripMenuItem.Size = new System.Drawing.Size(98, 24);
             this.sayHiToolStripMenuItem.Text = "About app!";
+            this.sayHiToolStripMenuItem.Click += new System.EventHandler(this.sayHiToolStripMenuItem_Click);
             // 
             // fontDialog1
             // 
@@ -553,7 +569,7 @@
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(192, 51);
+            this.textBox2.Size = new System.Drawing.Size(471, 51);
             this.textBox2.TabIndex = 1;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
@@ -586,6 +602,7 @@
             this.Controls.Add(this.btndelete);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
